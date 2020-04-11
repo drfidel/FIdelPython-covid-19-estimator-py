@@ -13,7 +13,7 @@ def estimator(data):
 		"totalHospitalBeds": 1380614
 		}
 
-		put_data = {
+		output_data = {
 		"data":input_data, 
 		"impact": {
 			"currentlyInfected": input_data["reportedCases"]*10,
